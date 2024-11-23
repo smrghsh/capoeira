@@ -24,7 +24,7 @@ export default class Knee {
     if (this.mixer) {
       //mixer
       console.log("I'm trying to update!!!! 😡");
-      this.mixer.update(this.experience.time.delta * 0.0018);
+      this.mixer.update(this.experience.time.delta * 0.0009);
     }
   }
 }
