@@ -18,7 +18,7 @@ export default class Camera {
       0.1,
       130
     );
-    this.instance.position.set(3, 2.5, 3);
+    this.instance.position.set(5, 2.5, 5);
     this.scene.add(this.instance);
   }
   setOrbitControls() {
