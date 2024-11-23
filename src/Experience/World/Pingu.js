@@ -31,6 +31,19 @@ export default class Pingu {
     this.scene.add(this.model2);
     this.action2.play();
 
+    // same with knee model
+    this.resource3 = this.resources.items.kneeModel;
+    this.model3 = this.resource3.scene;
+    this.model3.scale.set(0.85, 0.85, 0.85);
+    console.log(this.resource3);
+    this.model3.position.z += 0;
+    this.model3.position.x += 2;
+    this.model3.rotation.y -= Math.PI / 2;
+    this.mixer3 = new THREE.AnimationMixer(this.model3);
+    this.action3 = this.mixer3.clipAction(this.resource3.animations[0]);
+    this.scene.add(this.model3);
+    this.action3.play();
+
     // this.pinguGeometry, this.pinguMaterial = ... import glb file
   }
   tick() {
@@ -38,6 +51,8 @@ export default class Pingu {
       this.mixer.update(this.experience.time.delta * 0.0018);
       //mixer2
       this.mixer2.update(this.experience.time.delta * 0.0018);
+      //mixer3
+      this.mixer3.update(this.experience.time.delta * 0.0018);
     }
   }
 }

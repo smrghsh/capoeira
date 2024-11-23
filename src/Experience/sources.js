@@ -9,4 +9,9 @@ export default [
     type: "gltfModel",
     path: "models/samir-au.glb",
   },
+  {
+    name: "kneeModel",
+    type: "gltfModel",
+    path: "models/knee.glb",
+  },
 ];
