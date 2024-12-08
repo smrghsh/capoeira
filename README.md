@@ -1,5 +1,5 @@
 # capoeira
-
+![one figure doing ginga, one mid-carwheel](capoeira-screenshot.png)
 A photogrammetry scan of myself doing a martial arts movement in a WebXR scene.
 
 ## How/Why
