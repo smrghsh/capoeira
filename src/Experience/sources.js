@@ -1,13 +1,13 @@
 export default [
   {
-    name: "pinguModel",
-    type: "gltfModel",
-    path: "models/pingu.glb",
-  },
-  {
-    name: "samirModel",
+    name: "samirAuModel",
     type: "gltfModel",
     path: "models/samir-au.glb",
+  },
+  {
+    name: "samirGingaModel",
+    type: "gltfModel",
+    path: "models/samir-ginga.glb",
   },
   {
     name: "kneeModel",
